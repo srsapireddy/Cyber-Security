@@ -19,4 +19,13 @@ uname -a
 sudo -i
 ```
 
+### File Permissions
+Groups in Linux
+1. Admin/ Owner Group
+2. User Group
+3. Public Group
 
+Modes:
+Read
+Write
+Execute
