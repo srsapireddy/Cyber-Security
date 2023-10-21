@@ -10,4 +10,13 @@ apt-get update && apt-get upgrade -y
 ```
 uname -a
 ```
+## File Architecture of Linux
+### Root of Kali Linux
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/f35580b8-5751-483a-abb0-ba7558cb0e94)
+
+### Login as a root user
+```
+sudo -i
+```
+
 
