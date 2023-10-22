@@ -26,6 +26,25 @@ Groups in Linux
 3. Public Group
 
 Modes:
-Read
-Write
-Execute
+R : Read    : 4
+W : Write   : 2  
+X : Execute : 1
+
+Example: 6 - To give read and write permission to the admin
+Example: 3 - To give write and execute permission to the user
+Example: 7 - To give all the permission to the public
+
+Command: chmod 637 filename 
+
+To know the existing permission: ls -l filename
+
+### To create a new file:
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/12da759b-02d1-4185-bdab-c4a0005f04d5)
+
+By default, the permission is 644.
+Where a nono command is a text editor
+
+
+
+
+
