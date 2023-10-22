@@ -58,6 +58,9 @@ All the requests will be intercepted in the burp suite tool.
 Intercepted request
 ![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/c820e253-4010-49a1-92e4-2c2d2994bd8a)
 
+### You can also install Proxy Switcher for Burpsuite
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/1185714f-8c93-488f-9ae5-859c86ef73a3)
+
 
 
 
