@@ -64,6 +64,9 @@ Intercepted request
 ### Difference between Burpsuite and Wireshark
 The wireshark sends packets from one place to another, where we study packets. Using burpsuite, we analyze the requests made by your browser and the server. We don't see requests in the server.
 
+### Linux Commands Cheetsheet
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/c22500a1-dcaa-483a-acc1-09ccb7f69479)
+
 
 
 
