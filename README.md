@@ -44,7 +44,23 @@ To know the existing permission: ``` ls -l filename ```
 By default, the permission is 644.
 Where a nono command is a text editor
 
-## Burpsuite
+## Burpsuite: To capture a request 
+### Burpsuite proxy configuration
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/b305b725-69bf-46d7-9948-ce711c2a2bce)
+
+### Start
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/d9972243-2a50-4f17-8c08-1315f435b68b)
+
+All the requests will be intercepted in the burp suite tool.
+
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/2b91c003-1049-4852-beeb-f2af41a06c26)
+
+Intercepted request
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/c820e253-4010-49a1-92e4-2c2d2994bd8a)
+
+
+
+
 
 
 
