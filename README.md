@@ -61,6 +61,8 @@ Intercepted request
 ### You can also install Proxy Switcher for Burpsuite
 ![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/1185714f-8c93-488f-9ae5-859c86ef73a3)
 
+### Difference between Burpsuite and Wireshark
+The wireshark sends packets from one place to another, where we study packets. Using burpsuite, we analyze the requests made by your browser and the server. We don't see requests in the server.
 
 
 
