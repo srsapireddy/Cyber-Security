@@ -95,6 +95,38 @@ Using Cookie Editor, we can export these cookies
 Example:
 ![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/31c2600d-a2c4-4cc9-b607-ebc4f812322a)
 
+## Burpsuite
+### Proxy Module
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/6380f954-c378-44c8-9323-a2fe13791869)
+HTTP History in Proxy Module
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/e146d18c-e279-4140-bd49-0e7706c694d5)
+Request and Response checking that we are getting from the server in HTTP History
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/bbc44bf6-023f-42a0-a50a-4f6466fa0ab1)
+### Other Modules like Interceptor
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/8451a752-9aae-4d87-b180-714d888dae76)
+Repeater: To see the live request and response. Used for testing purposes only.
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/c3d5a96c-ef94-4728-a306-ce8336087fbc)
+
+Intruder: Used to give attack to the target
+Intruder is just used for dictionary attacks. Or the attacks related to permutations and combinations. 
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/8395a87b-a2d0-4c47-b811-d0005c794953)
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/18f4ccc3-3ed4-4c88-b2b0-9aa2bf31c066)
+Types of Attacks:
+1. Sniper attacks happen when you set the limit. For example, for four digits, it is 1000 - 9999 (Number of combinations available). Here, we can fix a target and attack in case OTP is a four-digit password.
+2. Clusterbombing doesn't have anything as a range in there. Here, we can use numbers and alphabets. 
+
+Comparer compares the difference between data information.
+Decoder 
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/4cfa6386-9c4b-4759-bb6d-9b867799b3df)
+Example
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/c3ab51b0-0803-4ae1-88ba-7427665a438d)
+
+
+
+
+
+
+
 
 
 
