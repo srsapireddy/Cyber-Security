@@ -87,6 +87,15 @@ Name Servers: These are responsible for storing DNS data to keep everything work
 8. SRV Record (generalized service location): Specifies the host and port for specific services such as voice over IP (VoIP). It serves as a starting and ending point for different network traffic.</br>
 #### Reference: https://www.youtube.com/watch?v=VMKbwYMoxX4
 
+### Cookie Editor and Cookie Extension
+Cookie Editor
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/49fbf37c-a134-4b68-a2da-ac056b4fca62)
+Using Cookie Editor, we can export these cookies
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/b59aeddf-fb9d-4c91-b1b4-20745a7cbfef)
+Example:
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/31c2600d-a2c4-4cc9-b607-ebc4f812322a)
+
+
 
 
 
