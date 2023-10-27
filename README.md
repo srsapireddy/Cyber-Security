@@ -67,6 +67,27 @@ The wireshark sends packets from one place to another, where we study packets. U
 ### Linux Commands Cheetsheet
 ![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/c22500a1-dcaa-483a-acc1-09ccb7f69479)
 
+## Reconnaissance Methodology & Testing Environment
+### Web Pentesting
+To check for exploits for different operating systems: https://www.exploit-db.com/
+
+## To use disposable email: getnada
+
+## What are DNS records?
+A DNS record is a domain name system that is a naming database where internet domain names are found and matched with their IP addresses. The domain name, along with its IP address, is referred to as the DNS record. </br>
+Name Servers: These are responsible for storing DNS data to keep everything working smoothly.</br>
+### Common DNS record types:
+1. A (Address Record): A record is used to match a domain name to an IPV4 address to retrieve it.</br>
+2. AAAA (Quad A): A type of DNS record that points to a domain or subdomain to an IPV6 address. So when someone types that domain or subdomain in the address bar, the browser knows where to go; here, IPV6 addresses are four times larger than IPV4 addresses and contain eight sets of numbers and letters.</br>
+3. CNAME record: Points domains or subdomains to another domain.</br>
+4. NS record (Name Servers): These are the servers where all the DNS records are stored. In order for a site to be live, we have to properly configure the name servers. Name servers are provided by the domain name registers or hosting providers.</br>
+5. MX record (Mail Exchanger): These are used to point your domain to email servers using SMTP (Simple Mail Transfer Protocol). Like a CNAME record, an MX record should always point to another domain. When an email server needs to deliver an email to the recipient, it first needs to know where the recipient's mailbox is located. It does so by asking the DNS server for the server name of the server that has the mailbox.</br>
+6. TXT Record (Text Record): These are used for various authentication methods. Used to verify the ownership of the domain and prevent spam by determining if the email is sent from a trusted source.</br>
+7. PTR Record (Pointer To a Canonical Name): This is a security tool. They are used to track an IP address to its domain or reverse DNS lookup.</br>
+8. SRV Record (generalized service location): Specifies the host and port for specific services such as voice over IP (VoIP). It serves as a starting and ending point for different network traffic.</br>
+#### Reference: https://www.youtube.com/watch?v=VMKbwYMoxX4
+
+
 
 
 
