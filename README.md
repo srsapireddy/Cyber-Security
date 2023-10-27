@@ -107,7 +107,7 @@ Request and Response checking that we are getting from the server in HTTP Histor
 Repeater: To see the live request and response. Used for testing purposes only.
 ![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/c3d5a96c-ef94-4728-a306-ce8336087fbc) </br>
 
-### Intruder: Used to give attack to the target
+### Intruder: Used to give an attack to the target
 Intruder is just used for dictionary attacks. Or the attacks related to permutations and combinations. 
 ![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/8395a87b-a2d0-4c47-b811-d0005c794953)
 ![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/18f4ccc3-3ed4-4c88-b2b0-9aa2bf31c066)
