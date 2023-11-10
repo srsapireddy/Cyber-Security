@@ -121,6 +121,56 @@ Types of Attacks:</br>
 Example</br>
 ![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/c3ab51b0-0803-4ae1-88ba-7427665a438d)</br>
 
+### Starting Apache Server
+```
+sudo service apache2 start
+```
+## Installing Apache2 Server
+```
+sudo apt-get install apache2
+```
+
+## Apache 2 Server Running
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/8a137c56-e819-4903-a44b-0a99ef7716e8)
+
+## Setting Up DVWA
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/cbb7fce4-b1d8-4c4a-87a1-a25876b7a52b)
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/81755d5a-d77b-47bb-b722-2ad6f1db950b)
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/8b4a008e-c7f1-4b39-beab-55ab534f2469)
+## Edit PHP version
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/1e7d627a-0880-4640-8ff6-d60965d2be7c)
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/71c3073e-98b4-4418-a5f5-ebaede707c21)
+
+## Reloading Apache2 Server
+```
+sudo service apache2 reload
+```
+
+## DVWA installed
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/e832204c-cb22-43cd-8ed9-19aec02f00df)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
