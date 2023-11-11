@@ -228,6 +228,56 @@ From this, we can find the system's default passwords.
 ### Web Pentesting
 command injection is used to get the connection of the server via arbitrary commands. With the help of arbitrary commands, we can get the reverse connections of the server with the help of netcat services. netcat services are just the higher level of exploitation techniques. The commands above are the post-exploitation technique. 
 
+### Example incident report
+link: https://www.ubercomp.com/posts/2014-01-16_facebook_remote_code_execution
+link: http://h1.nobbd.de/
+Example report from link 2: type command injection in the search option
+
+### DVWA error: https://medium.com/@wedefiti/dvwa-requested-url-not-found-error-kali-linux-setup-57a43fd33465
+
+## Cross-Site Request Forgery (CSRF)
+Change security level as low from impossible. </br>
+The advanced level of CSRF is XSRF. </br>
+
+User --> submit token --> Update information form --> Passed to server
+In some cases, the server is not taking authentication from the token. Then, we can create a forgery from into our local environment. We can host this forgery form on the website at the token location where it needs to be submitted. This can only be done when the authorization between the token and cookies is not been done</br>
+
+How is this working?</br>
+Step 1: we develop and exploit the URL or script.</br>
+Step 2: Trick the victim with Auto Submission.</br>
+
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/5a3610fc-621a-40d0-8a37-14c1bbcc8dbd)
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/76654d6e-5f51-49b2-8517-05ae35b50364)
+
+Edited HTML File:</br>
+Change the password again to see the changes after submitting the form. Check the URL where the form is submitted.</br>
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/c86f0f75-3954-46a1-8551-f0102a069de6)
+Directory where the form is submitted. It is submitted inside CSRF.</br>
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/1c26f281-ab46-4929-9aee-58cf319e23b4)
+Here, we can see that the new password is the password itself.</br>
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/87123722-b85c-4711-8644-c2d20823a92a)
+Open the csrf.html file in the browser </br>
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/a4da3e70-a5ca-4c34-95ee-2b2c58896d09)
+Change the password in the form and submit it. This will redirect to the DVWA page. Here, we can see that from the 2nd party, the form is getting submitted. Here, the server accepts the URL that isn't present. Log out and check the login to see if the password is changed with the HTML file.</br>
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/5dddbda5-6357-43c7-b215-2dc9f56dcc10)
+If the correct tokens are applied, this attack has yet to be executed.</br>
+
+### Auto submitting the form (Post Exploitation Technique)
+Here, we can see that everything is redirected.</br>
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/e7a15bcd-b283-47a1-8024-455c71138b50)
+Autosubmission using JavaScript Functions</br>
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/6cd28a0a-f0e9-46a0-87b7-bb763c20b26e)
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/8a345178-dc1c-4e7e-a65a-a977f02eb376)
+
+
+
+
+
+
+
+
+
+
 
 
 
