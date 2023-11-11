@@ -269,6 +269,8 @@ Autosubmission using JavaScript Functions</br>
 ![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/6cd28a0a-f0e9-46a0-87b7-bb763c20b26e)
 ![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/8a345178-dc1c-4e7e-a65a-a977f02eb376)
 
+## File Upload Vulnerability, Local and Remote File Inclusion
+
 
 
 
