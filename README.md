@@ -225,6 +225,8 @@ From this, we can find the system's default passwords.
 ```
 ![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/05e3cca3-760f-4070-a743-0be6e8479bb7)
 
+### Web Pentesting
+command injection is used to get the connection of the server via arbitrary commands. With the help of arbitrary commands, we can get the reverse connections of the server with the help of netcat services. netcat services are just the higher level of exploitation techniques. The commands above are the post-exploitation technique. 
 
 
 
