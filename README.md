@@ -230,7 +230,7 @@ command injection is used to get the connection of the server via arbitrary comm
 
 ### Example incident report
 link: https://www.ubercomp.com/posts/2014-01-16_facebook_remote_code_execution </br>
-link: http://h1.nobbd.de/
+link: http://h1.nobbd.de/ </br>
 Example report from link 2: type command injection in the search option
 
 ### DVWA error: https://medium.com/@wedefiti/dvwa-requested-url-not-found-error-kali-linux-setup-57a43fd33465
