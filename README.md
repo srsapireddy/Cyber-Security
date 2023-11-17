@@ -269,7 +269,7 @@ Autosubmission using JavaScript Functions</br>
 ![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/6cd28a0a-f0e9-46a0-87b7-bb763c20b26e)
 ![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/8a345178-dc1c-4e7e-a65a-a977f02eb376)
 
-## File Upload Vulnerability, Local and Remote File Inclusion (Uploading Malicious Shell)
+# File Upload Vulnerability, Local and Remote File Inclusion (Uploading Malicious Shell)
 When you upload a malicious file and upload a shell to get access to all the files.
 ### Start the Apache services
 ```
@@ -350,6 +350,22 @@ When opening up these files, they are hosted in the same directory that is insid
 ![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/0a05fd4c-29ba-47a1-a34e-83bc959bce67) </br>
 ![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/93ec98c1-4209-4943-af34-a4a0a7549f1c) </br>
 
+### Rotating inside the directory using the URL path of the file location
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/88f9cf71-a759-43a7-8f9c-95546f83354c) </br>
+
+Change the DVWA Security Level to low. </br>
+### Response
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/3828d1d9-2545-4274-a992-263d065842b2) </br>
+Here, the server is responding to the queries in the DVWA URL, which is dangerous. </br>
+Google is served inside our DVWA. In the same way, people can use the website as a proxy by hiding their IP addresses. </br>  
+
+## Remote File Inclusion
+Remote file inclusion is one of the deadly attacks. This can keep the server administrator in trouble. We use the whole website as a proxy in case of remote file inclusion, which is done for malicious activities. </br>
+RFI is working as a proxy for the website. </br>
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/509a31ed-f503-45c5-a2f7-bdd88ea54a63)
+This means we are trying to open a file that is not situated on the website but displayed on your website. </br>
+
+# Wireshark
 
 
 
