@@ -269,7 +269,67 @@ Autosubmission using JavaScript Functions</br>
 ![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/6cd28a0a-f0e9-46a0-87b7-bb763c20b26e)
 ![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/8a345178-dc1c-4e7e-a65a-a977f02eb376)
 
-## File Upload Vulnerability, Local and Remote File Inclusion
+## File Upload Vulnerability, Local and Remote File Inclusion (Uploading Malicious Shell)
+When you upload a malicious file and upload a shell to get access to all the files.
+### Start the Apache services
+```
+service apache2 start
+sudo service mysql start
+```
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/5a9b1923-34c2-41d4-8538-1c152cd30bc2)
+
+Here, we can see that the password of DVWA is changed using the CSRF attack.
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/706b8418-132c-4533-a93a-1953818e1385)
+
+### Making a custom shell in Kali
+To create a shell, we use a tool called weevely. We can generate a shell from weevely tool. </br>
+### Generating a new shell from weevely
+```
+sudo weevely generate 123123 /rrot/Desktop/shell.php
+```
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/943ed16c-bfb3-4383-80f2-921988517a5d)
+
+### Downloading the shell from the browser
+GitHub Link: https://github.com/4Hackerz/C99-Shell
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/5b871d47-688b-4e74-bb22-a770d7b360db)
+
+Here, we are trying to penetrate the c99.php file, which is a malicious file. Change the security level to low</br>
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/0d7af7ef-a84f-4751-9cfa-482521e5bdc1)
+
+If the DVWA File Upload option is not uploading any PHP file, we can rename the file to .php or manipulate the extensions. We can do that with the burpsuite. 
+
+Updated weevely command
+```
+sudo weevely generate 123123 /home/shell.php
+```
+
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/9bdf11fc-8117-467d-9506-4e7ccc64752f)
+
+## Uploading an image in DVWA for checking
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/8dfed14d-11ad-41b4-9b7f-5fb4754a9514)
+
+Rename php extension to jpeg for uploading the shell file to DVWA.
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/598c1a1f-5d0b-4d65-b566-e7cf348b41ba)
+
+## Use burpsuite to intercept file upload request
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/156847d6-3021-4bf7-80d9-a02a604b0111)
+
+Here, we upload a simple that is called shell.php. When we try to upload the file, we see a lot of filters. (like only jpg are allowed). We upload the file into a web app, so we are trying to bypass the filter programming and intercept in between with burp suite. Then, we rename the file to shell.php. 
+
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/43ab96ea-eeaa-41ef-a6c9-cc00c174b0bc)
+
+Upload the file as shown and see the intercepted request in the burp suite. </br>
+
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/c5145338-5547-432a-bc9d-f261896c14c9)
+
+
+
+
+
+
+
+
+
 
 
 
