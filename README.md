@@ -321,6 +321,44 @@ Here, we upload a simple that is called shell.php. When we try to upload the fil
 Upload the file as shown and see the intercepted request in the burp suite. </br>
 
 ![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/c5145338-5547-432a-bc9d-f261896c14c9)
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/299a6a8c-7ce4-4f61-a756-4968af022736)
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/1d029a21-3326-4b65-a832-2e224be29c47)
+Intercept the request in the burp suite. Change the name of the file to c99.php from c99.php.jpg. Then, forward the shell to .php over the network. Rename the file name to JEPG or PNG image format.</br>
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/18e43aa1-ac87-4090-9c35-2092705a5d65)
+
+### File Upload Vurnability Steps:
+Step 1 : weevely generate 123123 /home/Desktop/shell.php </br>
+Step 2 : Rename file shell.php.png </br>
+Step 3 : Intercept on file upload functionality  </br>
+Step 4 : Change the name of file in the request of burpsuite to shell.php </br>
+</br></br>
+Post Exploitation technique </br>
+Step 5 : weevely  paste link/URL where the file is uploaded 123123 </br>
+
+### Change the security level to impossible and check the source code for file vulnerability
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/06c5f3be-ccbe-4f45-8b8b-ca1bdb906a9f)
+
+## File Inclusion Vulnerability
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/c228c2a1-70bf-4ee0-983f-f03fee1e4eeb)
+
+Types of file inclusions: </br>
+1. Local file inclusion </br>
+2. Remote file inclusion </br>
+
+When opening up these files, they are hosted in the same directory that is inside the Vurnebalities folder. Inside this folder, we have a lot of files.   </br>
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/edfa3d2d-70a0-47e8-8ea5-8d26ef7a5236) </br>
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/0a05fd4c-29ba-47a1-a34e-83bc959bce67) </br>
+![image](https://github.com/srsapireddy/Cyber-Security/assets/32967087/93ec98c1-4209-4943-af34-a4a0a7549f1c) </br>
+
+
+
+
+
+
+
+
+
+
 
 
 
